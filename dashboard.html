@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Ada Tech Coffee</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Serif:opsz,wght@8..144,700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles/global.css">
+    <link rel="stylesheet" href="styles/dashboard.css">
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>AdaTech<span>Coffee</span></h1>
+        <p>Painel de Controle</p>
+      </header>
+
+      <section>
+        <h2>Produtos cadastrados</h2>
+
+        <table>
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Nome</th>
+              <th>Categoria</th>
+              <th>Valor</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Waffle Doce</td>
+              <td>Brunch</td>
+              <td>R$37.70</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Arroz Doce</td>
+              <td>Brunch</td>
+              <td>R$37.70</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Maça Doce</td>
+              <td>Brunch</td>
+              <td>R$37.70</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>Suco de Alface</td>
+              <td>Bebidas</td>
+              <td>R$37.70</td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>Vinho Fino</td>
+              <td>Bebidas</td>
+              <td>R$37.70</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section>
+        <h2>Cadastrar Produto</h2>
+
+        <form>
+          <div>
+            <label for="name">Nome</label>
+            <input type="text" id="name" name="name" />
+          </div>
+
+          <div>
+            <label for="category">Categoria</label>
+            <select name="category" id="category">
+              <option disabled selected></option>
+              <option value="brunch">Brunch</option>
+              <option value="bebidas">Bebidas</option>
+            </select>
+          </div>
+
+          <div>
+            <label for="description">Descrição</label>
+            <textarea name="description" id="description" rows="2"></textarea>
+          </div>
+
+          <div>
+            <label for="price">Preço</label>
+            <input type="text" id="price" name="price" />
+          </div>
+
+          <button>Cadastrar</button>
+        </form>
+      </section>
+
+      <footer>Todos os direitos reservados</footer>
+    </div>
+  </body>
+</html>
