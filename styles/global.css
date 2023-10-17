@@ -12,6 +12,7 @@ body, input, select, textarea, button {
 
 body {
   padding: 24px 0;
+  margin-inline: 1rem;
   background: #FFEDD5;
 }
 
