@@ -1,3 +1,7 @@
+section:nth-of-type(1) h2 {
+  margin-bottom: 16px;
+}
+
 table {
   width: 100%;
   text-align: left;
